@@ -1,0 +1,10 @@
+input_w = 32
+input_h = 96
+anchors = [[15, 58], [18, 67], [22, 75], [26, 84], [32, 96]]
+masks = [[3, 4], [0, 1, 2]]  
+OBJ_THRESH = 0.1
+NMS_THRESH = 0.6
+NUM_CLS = 10  # Number of classes
+MAX_BOXES = 500
+CLASSES = ( '0', '1', '2', '3', '4', '5', '6', '7', '8', '9')
+RKNN_MODEL_PATH = './rknnModels/kl_digitRec.rknn'

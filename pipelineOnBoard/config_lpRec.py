@@ -1,0 +1,9 @@
+OBJ_THRESH = 0.3
+NMS_THRESH = 0.5
+anchors = [[1,2], [1,3], [1,5], [2, 3], [3,5]]
+masks = [[3, 4], [0, 1, 2]]
+CLASSES = ('plate',)
+RKNN_MODEL_PATH = './rknnModels/kl_lpRec.rknn'
+NUM_CLS = 1  # Only one class: 'plate'
+LISTSIZE = 4 + 1 + NUM_CLS
+MAX_BOXES = 10  # Max plates to detect

@@ -1,0 +1,11 @@
+anchors = [[3, 43], [5, 31], [3, 49], [4, 54], [4, 61]]
+masks = [[3, 4], [0, 1, 2]]
+input_w = 256
+input_h = 96
+OBJ_THRESH = 0.1
+NMS_THRESH = 0.6
+NUM_CLS = 1
+LISTSIZE = 4 + 1 + NUM_CLS
+MAX_BOXES = 500
+CLASSES = ('character',)
+RKNN_MODEL_PATH = './rknnModels/kl_charSeg.rknn'

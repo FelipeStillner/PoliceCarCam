@@ -1,0 +1,11 @@
+Darknet V3 "Jazz" [1;37mv3.0-212-gbb1b3bbb-dirty[0m
+CUDA runtime version 12050 ([1;37mv12.5[0m), driver version 12050 ([1;37mv12.5[0m)
+cuDNN version 12080 ([1;37mv9.7.1[0m), use of half-size floats is [1;37mENABLED[0m
+=> 0: [1;32mNVIDIA GeForce RTX 3060 Laptop GPU[0m [#8.6], [1;33m5.7 GiB[0m
+OpenCV [1;37mv4.2.0[0m, Ubuntu [1;37m20.04[0m
+Allocating workspace to transfer between CPU and GPU:  12.5 MiB
+Calculating mAP (mean average precision)...
+Detection layer #16 is type 17 (yolo)
+Detection layer #23 is type 17 (yolo)
+using 4 threads to load 2560 validation images for mAP% calculations
+processing #0 (0%) 

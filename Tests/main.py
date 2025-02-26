@@ -28,7 +28,7 @@ async def main():
     buttom_event = asyncio.Event()
     video_output = "video.mp4"
 
-    lcd.escrever_lcd(" | ", ".|.")
+    lcd.escrever_lcd("Polce Car Cam", "")
     buzzer.buzzer()
 
     try:
